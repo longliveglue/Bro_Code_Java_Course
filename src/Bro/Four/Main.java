@@ -16,30 +16,28 @@ public class Main {
         String adjective3;
 
 
-        System.out.print("Type in an adjective: ");
+        System.out.print("\nType in an adjective: ");
         adjective1 = scanner.nextLine();
-        System.out.println();
 
-        System.out.print("Type in a Noun: ");
+        System.out.print("\nType in a Noun: ");
         noun1 = scanner.nextLine();
-        System.out.println();
 
-        System.out.print("Type in another adjective: ");
+
+        System.out.print("\nType in another adjective: ");
         adjective2 = scanner.nextLine();
-        System.out.println();
 
-        System.out.print("Type in a verb: ");
+
+        System.out.print("\nType in a verb ending in -ing: ");
         verb1 = scanner.nextLine();
-        System.out.println();
 
-        System.out.print("Type in the final adjective: ");
+
+        System.out.print("\nType in the final adjective: ");
         adjective3 = scanner.nextLine();
-        System.out.println();
 
         scanner.close();
 
 
-        System.out.println("Today i went to a " + adjective1 + " zoo.");
+        System.out.println("\nToday i went to a " + adjective1 + " zoo.");
         System.out.println("In an exhibt, i saw a " + noun1 + ".");
         System.out.println(noun1 + " was " + adjective2 + " and " + verb1 + "!");
         System.out.println("I was " + adjective3 + "!");
