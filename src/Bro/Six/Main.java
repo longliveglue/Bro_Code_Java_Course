@@ -26,5 +26,6 @@ public class Main {
 
         System.out.println("\nYou have bought " + quantity + " " + itemName + "'s");
         System.out.println("Your total cost is: $" + total);
+        s.close();
     }
 }
