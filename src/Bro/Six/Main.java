@@ -4,12 +4,14 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
+        //SHOPPING CART PROGRAM
+
         Scanner s = new Scanner(System.in);
-String itemName;
-double price;
-int quantity;
-double total;
+        String itemName;
+        double price;
+        int quantity;
+        double total;
 
         System.out.print("What item would you like to buy?: ");
         itemName = s.nextLine();
