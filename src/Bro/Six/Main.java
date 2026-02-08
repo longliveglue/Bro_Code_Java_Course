@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        //SHOPPING CART PROGRAM
+        //SHOPPING CART PROGRAM.
+        //VERY BASIC.
 
         Scanner s = new Scanner(System.in);
         String itemName;
@@ -25,7 +26,7 @@ public class Main {
         total = price * (double) quantity;
 
         System.out.println("\nYou have bought " + quantity + " " + itemName + "'s");
-        System.out.println("Your total cost is: $" + total);
+        System.out.printf("Your total cost is: $%.2f%n" , total);
         s.close();
     }
 }
