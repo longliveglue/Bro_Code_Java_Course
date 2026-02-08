@@ -26,7 +26,7 @@ public class Main {
         total = price * (double) quantity;
 
         System.out.println("\nYou have bought " + quantity + " " + itemName + "'s");
-        System.out.printf("Your total cost is: $%.2f%n" , total);
+        System.out.printf("\nYour total cost is: $%.2f%n" , total);
         s.close();
     }
 }
