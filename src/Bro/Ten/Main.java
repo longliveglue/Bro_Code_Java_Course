@@ -93,7 +93,7 @@ public class Main {
         System.out.printf("%04d \n", id2);
         System.out.printf("%04d \n", id3);
 
-        //You can see that no 0'd are added in front of the 7890 thats because we wrote 04 so the number is already 4 wide.
+        //You can see that no 0'd are added in front of the 7890 that's because we wrote 04 so the number is already 4 wide.
         System.out.printf("%04d \n", id4);
 
         //we can also just type a number to indicate padding without 0s
@@ -102,7 +102,7 @@ public class Main {
         System.out.printf("%4d \n", id2);
         System.out.printf("%4d \n", id3);
 
-        //You can see that no 0'd are added in front of the 7890 thats because we wrote 04 so the number is already 4 wide.
+        //You can see that no 0'd are added in front of the 7890 that's because we wrote 04 so the number is already 4 wide.
         System.out.printf("%4d \n", id4);
 
         //We can also just type a number to indicate padding to the left
@@ -111,7 +111,7 @@ public class Main {
         System.out.printf("%-4d \n", id2);
         System.out.printf("%-4d \n", id3);
 
-        //You can see that no 0'd are added in front of the 7890 thats because we wrote 04 so the number is already 4 wide.
+        //You can see that no 0'd are added in front of the 7890 that's because we wrote 04 so the number is already 4 wide.
         System.out.printf("%-4d \n", id4);
 
 
