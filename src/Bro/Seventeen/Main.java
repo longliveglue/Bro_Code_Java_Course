@@ -54,12 +54,11 @@ public class Main {
         }
 
         //I know this line is hell on eath but i wanted to see if it was possible.
-        System.out.printf("\n%.2f°%S converted to %s is %.2f°%S",temp,unit, (unit.contains("C"))? "Fahrenheit ":"Celsius", (unit.contains("C"))? (temp * 1.8) + 32 : (temp - 32) / 1.8, (unit.contains("C"))? "F ":"C ");
-
+        System.out.printf("\n%.2f°%S converted to %s is %.2f°%S", temp, unit, (unit.contains("C")) ? "Fahrenheit " : "Celsius", (unit.contains("C")) ? (temp * 1.8) + 32 : (temp - 32) / 1.8, (unit.contains("C")) ? "F " : "C ");
 
 
         s.close();
-}
+    }
 
 
 }
