@@ -73,7 +73,6 @@ public class Main {
 
         }
 
-
         switch (operator) {
             case "/" -> {
                 sum = number1 / number2;
