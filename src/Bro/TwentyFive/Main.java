@@ -38,7 +38,7 @@ public class Main {
         System.out.println();
         System.out.println();
 
-        // Now we will make a programm that will create a matrix of user defined rows and colums of any character that a user wants.
+        // Now we will make a programm that will create a matrix of user defined rows and columns of any character that a user wants.
 
         Scanner s = new Scanner(System.in);
         int rows = 0;
