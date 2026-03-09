@@ -36,7 +36,7 @@ public class Main {
 
     }
 
-    // A method that takes 3 arguements and sings happybirthday to a person says their age and using Ternary corrects if its year old or years old.
+    // A method that takes 3 parameters and sings happybirthday to a person says their age and using Ternary corrects if its year old or years old.
     public static void happyBirthday(int repeat, String name, int age) {
 
         for (int i = repeat; i > 0; i--) {
@@ -56,7 +56,7 @@ public class Main {
     }
 
 
-    // A method that takes 1 arguement and then times it by itself.
+    // A method that takes 1 parameter and then times it by itself.
     public static double square(double number) {
         return number * number;
     }
