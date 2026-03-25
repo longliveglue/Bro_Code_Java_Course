@@ -1,4 +1,4 @@
-package Bro.TwentyEight;
+package Bro.VariableScope;
 
 public class alternate {
     int z = 33;

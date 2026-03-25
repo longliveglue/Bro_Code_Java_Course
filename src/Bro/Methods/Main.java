@@ -1,4 +1,4 @@
-package Bro.TwentySix;
+package Bro.Methods;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package Bro.ThirtyThree;
+package Bro.ArrarySearch;
 
 import java.util.Arrays;
 import java.util.Scanner;

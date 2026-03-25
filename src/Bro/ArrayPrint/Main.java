@@ -1,4 +1,4 @@
-package Bro.ThirtyTwo;
+package Bro.ArrayPrint;
 
 import java.util.Scanner;
 
