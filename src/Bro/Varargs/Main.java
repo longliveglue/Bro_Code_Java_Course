@@ -7,7 +7,6 @@ public class Main {
         //           java will pack the arguements into an array
         //           ... (ellipsis)
 
-
         add(12, 15, 10, 66);
 
         System.out.println("The average is: " + average(10, 15, 22, 66, 4));
@@ -26,7 +25,6 @@ public class Main {
         }
         System.out.println(sum);
     }
-
 
     // Another varargs method is below. It will take a number of numbers and make an array.
     // i will then sum the ints in a for loop and then divide them by numbers.length to find the average.
