@@ -25,6 +25,7 @@ public class Main {
         System.out.println(triangle.area());
         System.out.println();
         circle.display();
+
     }
 
 }

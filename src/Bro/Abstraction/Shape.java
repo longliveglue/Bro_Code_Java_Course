@@ -10,4 +10,5 @@ public abstract class Shape {
         System.out.println("This "+  getClass().getSimpleName() + " is a shape from a concrete method"  );
     }
 
+
 }
